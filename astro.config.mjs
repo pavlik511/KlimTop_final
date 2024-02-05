@@ -5,11 +5,11 @@ import  react  from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  renderers: [
-    '@astrojs/renderer-react'
-  ],
+  
   experimental: {
     viewTransitions: true
   },
-  integrations: [tailwind(), compress(), react()]
+  integrations: [tailwind(), compress(), react({
+    include: ['**/react/*'],
+  })]
 });

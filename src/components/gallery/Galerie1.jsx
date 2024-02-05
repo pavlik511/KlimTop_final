@@ -1,5 +1,5 @@
 import ImageGallery from 'react-image-gallery';
-
+import  react   from '@astrojs/react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
 function App() {

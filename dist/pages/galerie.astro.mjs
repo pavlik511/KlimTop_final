@@ -5,6 +5,6 @@ import 'html-escaper';
 import 'react';
 import 'react-dom/server';
 
-const page = () => import('../chunks/pages/galerie.astro.7eb2ebb7.mjs');
+const page = () => import('../chunks/pages/galerie.astro.c41c5bf0.mjs');
 
 export { page };
